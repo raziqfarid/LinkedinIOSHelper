@@ -84,7 +84,7 @@
         navigationController.modalPresentationStyle = UIModalPresentationFormSheet;
     }
     
-    [self.presentingViewController presentViewController:navigationController animated:YES completion:nil];
+    [self.presentingViewController.navigationController presentViewController:navigationController animated:YES completion:nil];
 }
 
 - (NSString *)authorizationCode {
